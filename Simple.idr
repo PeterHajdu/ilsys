@@ -2,6 +2,7 @@ module Simple
 
 %default total
 
+public export
 data LSys : a -> Type where
   MkLSys : List a -> (a -> List a) -> LSys a
 
